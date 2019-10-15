@@ -10,7 +10,7 @@ class Car
     int cm_wide;
     int cm_tall;
     int mass;
-    int location;
+    double location;
     int thrust;
     double velocity;
 
@@ -31,7 +31,7 @@ class Car
     int get_mass(){return this->mass;}
 
     void set_location(int location){this->location=location;}
-    int get_location(){return this->location;}
+    double get_location(){return this->location;}
 
     void set_thrust(int thrust){this->thrust = thrust;}
     int get_thrust(){return this->thrust;}
@@ -40,7 +40,7 @@ class Car
     double get_velocity(){return this->velocity;}
 
 
-    Car(std::string,int,int,int,int,int,double);
+    Car(std::string,int,int,int,double,int,double);
     Car();
     ~Car();
 

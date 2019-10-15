@@ -1,7 +1,7 @@
 #include "car.h"
 
 
-Car::Car(std::string name,int width,int tall,int mass,int location,int thrust,double velocity)
+Car::Car(std::string name,int width,int tall,int mass,double location,int thrust,double velocity)
 {
     this->name = name;
     this->cm_wide = width;
